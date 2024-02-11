@@ -261,6 +261,12 @@ nav{
 
 /* TERMINA CLIENTES */
 
+/* ARRANCA CONTACTO */
+
+.container-nombre-y-mail{
+    background-color: red;
+}
+
 /* ARRANCA FOOTER */
 
 footer{
@@ -358,11 +364,41 @@ footer{
     .row-clientes img{
         max-width: 200px;
     }
+
+    /* contact */
+
+    .container-contact{
+        flex-direction: column;
+    }
+
+    .container-informaciones{
+        flex-direction: column;
+    }
+
+    .container-direccion{
+        justify-content: center;
+    }
+
+    .container-mail{
+        justify-content: center;
+    }
+
+    .container-telefono{
+        justify-content: center;
+    }
+
+    .container-nombre-y-mail{
+        flex-direction: column;
+    }
+
+    .container-nombre{
+        margin-bottom: 6px;
+    }
 }
 
 /* MEDIA QUERIES TABLET */
 
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 1024px){
     
     .info{
         text-align: center;
@@ -377,4 +413,36 @@ footer{
         margin: auto;
     }
 
+
+    /* contact */
+
+    .container-contact{
+        flex-direction: column;
+    }
+
+    .container-informaciones{
+        flex-direction: column;
+    }
+
+    .container-direccion{
+        justify-content: center;
+    }
+
+    .container-mail{
+        justify-content: center;
+    }
+
+    .container-telefono{
+        justify-content: center;
+    }
+
+    .container-nombre-y-mail{
+        flex-direction: column;
+    }
+
+    .container-nombre{
+        margin-bottom: 6px;
+    }
+
 }
+
