@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/21180ec3ad.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!-- FAVICON -->
+    <link rel="icon" href="media/FaviconHope.png">
+    <title>Hope</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- LOGO -->
+                <a class="navbar-brand" href="index.html"><img src="media/LogoHope.png" alt=""></a>
+                <!-- TOGGLE BTN -->
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- SIDEBAR -->
+                <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <!-- SIDEBAR HEADER -->
+                    <div class="offcanvas-header text-white border-bottom">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Hope</h5>
+                        <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <!-- SIDEBAR BODY -->
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center aling-items-center fs-5 flex-grow-1 pe-3">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" aria-current="page" href="#servicios">Servicios</a>
+                            </li>
+                            <li class="nav-item dropdown mx-2">
+                                <a class="nav-link dropdown-toggle" href="#productos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Productos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="html/cafe.html">Cafe</a></li>
+                                    <li><a class="dropdown-item" href="html/bebidas.html">Bebidas</a></li>
+                                    <li><a class="dropdown-item" href="html/tortas.html">Tortas</a></li>
+                                    <li><a class="dropdown-item" href="html/masas.html">Masas</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#equipo">Equipo</a>
+                            </li>
+                        </ul>
+                        <!-- BTN CONTACTO -->
+                        <div class="btn d-flex justify-content-center aling-items-center gap-3">
+                            <a href="#contact" class="contactanos text-white text-decoration-none px-3 py-1 rounded-4">Contactanos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="presentacion">
+            
+            <div class="container text-center">
+                <h1>Hope</h1>
+                <h2>Maison du pain</h2>
+                <h3>Fermentación natural, viennoiserie y café de especialidad</h3>
+            </div>
+
+        </section>
+
+        <section id="servicios">
+            <div class="grid-container-servicios">
+                <div class="container-parrafo1 container-parrafo-general">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, provident perspiciatis quidem deleniti nihil sunt ex mollitia tempora. Optio sunt illo cupiditate mollitia ipsa eius dolor corrupti ex, itaque voluptas!</p>
+                </div>
+        
+                <div class="container-imagen1 container-imagen-general">
+                    <img src="/media/perro-random.jpeg" alt="perro">
+                </div>
+        
+                <div class="container-imagen2 container-imagen-general">
+                    <img src="/media/perro-random.jpeg" alt="perro">
+                </div>
+        
+                <div class="container-parrafo2 container-parrafo-general">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, provident perspiciatis quidem deleniti nihil sunt ex mollitia tempora. Optio sunt illo cupiditate mollitia ipsa eius dolor corrupti ex, itaque voluptas!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="productos">
+            <div class="container-fluid container-fluid-productos text-center">
+    
+                <p class="fs-1">Carta Virtual</p>
+    
+                <div class="row">
+                    <div class="cajas col-lg-3 col-md-6 col-sm-6 d-flex flex-column">
+                        <div class="circulo rounded-circle">
+                            <a href="html/cafe.html"><img src="media/perro-random.jpeg" alt="random"></a>
+                        </div>
+                        <p>Cafe</p>
+                    </div>
+    
+                    <div class="cajas col-lg-3 col-md-6 col-sm-6 d-flex flex-column">
+                        <div class="circulo rounded-circle">                               <!-- hago el div en forma de circulo -->
+                            <a href="html/bebidas.html"><img src="media/perro-random.jpeg" alt="random"></a>
+                        </div>
+                        <p>Bebidas</p>
+                    </div>
+    
+                    <div class="cajas col-lg-3 col-md-6 col-sm-6 d-flex flex-column">
+                        <div class="circulo rounded-circle">
+                            <a href="html/tortas.html"><img src="media/perro-random.jpeg" alt="random"></a>
+                        </div>
+                        <p>Tortas</p>
+                    </div>
+    
+                    <div class="cajas col-lg-3 col-md-6 col-sm-6 d-flex flex-column">
+                        <div class="circulo rounded-circle">
+                            <a href="html/masas.html"><img src="media/perro-random.jpeg" alt="random"></a>
+                        </div>
+                        <p>Masas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipo">
+            <div class="team">
+                <div class="container">
+                    <div class="titulo-equipo mt-5">
+                        <h2>Equipo</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, vero!</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-miembro mt-4">
+                            <div class="miembro d-flex aling-items-start">
+                                <div class="imagen-miembro">
+                                    <img src="media/team1.png" class="img-fluid rounded-circle" alt="miembro del equipo">
+                                </div>
+                                <div class="miembro-info">
+                                    <h4>Nombre</h4>
+                                    <span>Oficio</span>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, placeat.</p>
+                                
+                                    <div class="miembro-redes">
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-miembro mt-4">
+                            <div class="miembro d-flex aling-items-start">
+                                <div class="imagen-miembro">
+                                    <img src="media/team2.png" class="img-fluid rounded-circle" alt="miembro del equipo">
+                                </div>
+                                <div class="miembro-info">
+                                    <h4>Nombre</h4>
+                                    <span>Oficio</span>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, placeat.</p>
+                                
+                                    <div class="miembro-redes">
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-miembro mt-4 mb-4">
+                            <div class="miembro d-flex aling-items-start">
+                                <div class="imagen-miembro">
+                                    <img src="media/team3.png" class="img-fluid rounded-circle" alt="miembro del equipo">
+                                </div>
+                                <div class="miembro-info">
+                                    <h4>Nombre</h4>
+                                    <span>Oficio</span>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, placeat.</p>
+                                
+                                    <div class="miembro-redes">
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-miembro mt-4 mb-4">
+                            <div class="miembro d-flex aling-items-start">
+                                <div class="imagen-miembro">
+                                    <img src="media/team4.jpg" class="img-fluid rounded-circle" alt="miembro del equipo">
+                                </div>
+                                <div class="miembro-info">
+                                    <h4>Nombre</h4>
+                                    <span>Oficio</span>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, placeat.</p>
+                                
+                                    <div class="miembro-redes">
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="clientes">
+            <div class="container text-center pt-5">
+                <h2>Nuestros Clientes</h2>
+            </div>
+            <div class="container container-clientes text-center">
+                <div class="row row-clientes">
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="card card-clientes mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="media/perro-random.jpeg" class="img-fluid rounded-circle ms-5 imagen-cliente" alt="cliente">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Nombre</h5>
+                                  <p class="card-text">Texto del cliente</p>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4 d-flex flex-column">
+                        <div class="card card-clientes mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="media/perro-random.jpeg" class="img-fluid rounded-circle ms-5 imagen-cliente" alt="cliente">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Nombre</h5>
+                                  <p class="card-text">Texto del cliente</p>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4 d-flex flex-column">
+                        <div class="card card-clientes mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="media/perro-random.jpeg" class="img-fluid rounded-circle ms-5 imagen-cliente" alt="cliente">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Nombre</h5>
+                                  <p class="card-text">Texto del cliente</p>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-nosotros mt-5">
+                    <h3>Somos Hope!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus saepe fugiat repellendus sapiente maxime unde doloribus amet necessitatibus sed animi nobis, provident iure asperiores, sequi tenetur. Velit perspiciatis veritatis dolor deserunt iste tempore minus molestias. Qui minima in cupiditate veniam ipsam autem omnis quas doloribus facilis. Sapiente voluptatum quia nemo.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-redes mt-5">
+                    <h3>Redes</h3>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="autor text-center">
+                <p>©Patricio Rodriguez</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTON GO TOP -->
+
+    <a class="go-top-btn" href="#header"><i class="fa-solid fa-chevron-up"></i></a>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
