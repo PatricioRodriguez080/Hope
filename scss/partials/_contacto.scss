@@ -1,0 +1,66 @@
+#contact{
+    background-color: grey
+}
+.titulo-contactanos{
+    @include titulo();
+}
+.container-boton{
+    button{
+        min-height: 40px;
+        min-width: 80px;
+        background-color: $marron-oscuro;
+        color: white;
+        &:hover{
+            @include boton-agrandamiento();
+        }
+    }
+}
+
+.container-informaciones{
+    margin-bottom: 20px;
+}
+
+.container-direccion{
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    p{
+        margin: 0;
+    }
+    i{
+        margin-right: 10px;
+    }
+}
+.container-mail{
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    p{
+        margin: 0;
+    }
+    i{
+        margin-right: 10px;
+    }
+}
+.container-telefono{
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    p{
+        margin: 0;
+    }
+    i{
+        margin-right: 10px;
+    }
+}
+.container-nombre-y-mail{
+    padding: 0;
+}
+.container-nombre{
+    align-items: center;
+    margin: 5px 0px;
+}
+.container-mail-texto{
+    align-items: center;
+    margin: 5px 0px;
+}

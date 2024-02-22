@@ -1,0 +1,13 @@
+footer{
+    background-color: #6c4a3e;
+    color: white;
+}
+.col-redes{
+    a{
+        color: white;
+        &:hover{
+            transition: all 300ms;
+            color: grey;
+        }
+    }
+}

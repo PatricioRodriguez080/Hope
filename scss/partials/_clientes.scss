@@ -1,0 +1,12 @@
+#clientes{
+    background-color: #795548;
+}
+.titulo-clientes{
+    @include titulo();
+}
+.card-clientes{
+    padding: 20px 0px;
+}
+.imagen-cliente{
+    margin-left: 30px;
+}

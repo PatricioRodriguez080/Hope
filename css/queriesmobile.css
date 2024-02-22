@@ -1,0 +1,45 @@
+@media only screen and (max-width: 767px) {
+  /* servicios */
+  .grid-container-servicios {
+    display: grid;
+    grid-template-areas: "imagen1 imagen1" "texto1 texto1" "imagen2 imagen2" "texto2 texto2";
+  }
+  .container-parrafo-general {
+    margin: 10px 20px;
+  }
+  .container-imagen-general img {
+    width: 200px;
+    margin: 40px 0px;
+  }
+  /* clientes */
+  .container-clientes {
+    background-color: mediumaquamarine;
+  }
+  .row-clientes img {
+    max-width: 200px;
+  }
+  /* contact */
+  .container-contact {
+    flex-direction: column;
+  }
+  .container-informaciones {
+    flex-direction: column;
+  }
+  .container-direccion {
+    justify-content: center;
+  }
+  .container-mail {
+    justify-content: center;
+  }
+  .container-telefono {
+    justify-content: center;
+  }
+  .container-nombre-y-mail {
+    flex-direction: column;
+  }
+  .container-nombre {
+    margin-bottom: 6px;
+  }
+}
+
+/*# sourceMappingURL=queriesmobile.css.map */

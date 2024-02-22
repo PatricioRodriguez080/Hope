@@ -1,0 +1,70 @@
+.team .miembro{
+    position: relative;
+    padding: 30px;
+    box-shadow: 0px 2px 14px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background: rgb(0, 134, 127);
+    h4{
+        font-weight: 700;
+        margin-bottom: 5px;
+        font-size: 20px;
+        color: aqua;
+    }
+    span{
+        display: block;
+        font-size: 15px;
+        padding-bottom: 10px;
+        position: relative;
+        font-weight: 500;
+        &::after{
+            content: "";
+            position: absolute;
+            display: block;
+            width: 50px;
+            height: 2px;
+            background: black;
+            bottom: 0;
+            left: 0;
+        }
+    }
+    p{
+        margin: 10px 0 0 0;
+        font-size: 14px;
+    }
+    .imagen-miembro{
+        width: 180px;
+    }
+    .miembro-info{
+        padding-left: 30px;
+    }
+    .miembro-redes{
+        margin-top: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            width: 32px;
+            height: 32px;
+            text-decoration: none;
+            i{
+                color: red;
+                font-size: 16px;
+                margin: 0 2px;
+                &:hover{
+                    color: blue;
+                }
+            }
+        }
+    }
+}
+.equipo{
+    padding: 60px 0;
+    overflow: hidden;
+}
+.titulo-equipo{
+    padding-bottom: 30px;
+    @include titulo();
+}

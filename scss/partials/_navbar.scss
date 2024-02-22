@@ -1,0 +1,19 @@
+nav{
+    background-color: #795548;
+    color: aliceblue;
+    .nav-item a{
+        color: aliceblue;
+    }
+    .contactanos{
+        background-color: coral;
+        &:hover{
+            @include boton-agrandamiento();
+        }
+    }
+    .sidebar{
+        background-color: #AB8273;
+    }
+    .dropdown-menu{
+        background-color: #A37666;
+    }
+}

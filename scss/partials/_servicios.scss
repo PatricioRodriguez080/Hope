@@ -1,0 +1,35 @@
+.grid-container-servicios{
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "texto1 imagen1"
+        "imagen2 texto2";
+    grid-template-columns: 50% 50%;
+}
+.container-parrafo-general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.container-imagen-general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    img{
+        width: 200px;
+    }
+}
+.container-parrafo1{
+    grid-area: texto1;
+}
+.container-imagen1{
+    grid-area: imagen1;
+}
+.container-imagen2{
+    grid-area: imagen2;
+}
+.container-parrafo2{
+    grid-area: texto2;
+}

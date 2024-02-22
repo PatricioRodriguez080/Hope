@@ -1,0 +1,10 @@
+@mixin titulo(){
+    text-align: center;
+    color: greenyellow;
+    font-size: 3rem;
+}
+
+@mixin boton-agrandamiento(){
+    transition: all 300ms;
+    transform: scale(1.15);
+}

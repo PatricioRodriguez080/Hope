@@ -1,0 +1,28 @@
+.container-fluid-productos{
+    background-color: #795548;
+    padding-top: 40px;
+    color: white;
+}
+.cajas{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        padding-top: 10px;
+    }
+}
+.circulo{
+    transition: all 300ms;
+    &:hover{
+        transform: scale(1.10);
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+}
+.titulo-section{
+    @include titulo();
+}

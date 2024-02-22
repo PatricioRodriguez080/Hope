@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/21180ec3ad.js" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- CSS -->
@@ -80,7 +82,7 @@
 
         <section id="servicios">
             <div class="grid-container-servicios">
-                <div class="container-parrafo1 container-parrafo-general">
+                <div class="container-parrafo1 container-parrafo-general" data-aos="fade-right">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, provident perspiciatis quidem deleniti nihil sunt ex mollitia tempora. Optio sunt illo cupiditate mollitia ipsa eius dolor corrupti ex, itaque voluptas!</p>
                 </div>
         
@@ -92,7 +94,7 @@
                     <img src="media/cafe.jpeg" class="rounded-circle" alt="cafe">
                 </div>
         
-                <div class="container-parrafo2 container-parrafo-general">
+                <div class="container-parrafo2 container-parrafo-general" data-aos="fade-left">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, provident perspiciatis quidem deleniti nihil sunt ex mollitia tempora. Optio sunt illo cupiditate mollitia ipsa eius dolor corrupti ex, itaque voluptas!</p>
                 </div>
             </div>
@@ -101,12 +103,12 @@
         <section id="productos">
             <div class="container-fluid container-fluid-productos text-center">
     
-                <p class="fs-1">Carta Virtual</p>
+                <p class="titulo-section">Carta Virtual</p>
     
                 <div class="row">
                     <div class="cajas col-lg-3 col-md-6 col-sm-6 d-flex flex-column">
                         <div class="circulo rounded-circle">
-                            <a href="html/cafe.html"><img src="media/perro-random.jpeg" alt="random"></a>
+                            <a href="html/cafe.html"><img src="media/cafe-productos.png" alt="random"></a>
                         </div>
                         <p>Cafe</p>
                     </div>
@@ -120,14 +122,14 @@
     
                     <div class="cajas col-lg-3 col-md-6 col-sm-6 d-flex flex-column">
                         <div class="circulo rounded-circle">
-                            <a href="html/tortas.html"><img src="media/perro-random.jpeg" alt="random"></a>
+                            <a href="html/tortas.html"><img src="media/tortas.png" alt="random"></a>
                         </div>
                         <p>Tortas</p>
                     </div>
     
                     <div class="cajas col-lg-3 col-md-6 col-sm-6 d-flex flex-column">
                         <div class="circulo rounded-circle">
-                            <a href="html/masas.html"><img src="media/perro-random.jpeg" alt="random"></a>
+                            <a href="html/masas.html"><img src="media/masas.png" alt="random"></a>
                         </div>
                         <p>Masas</p>
                     </div>
@@ -139,9 +141,9 @@
             <div class="team">
                 <div class="container">
                     <div class="titulo-equipo mt-5">
-                        <h2>Equipo</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, vero!</p>
+                        <p>Equipo</p>
                     </div>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, vero!</p>
                     <div class="row">
                         <div class="col-lg-6 col-miembro mt-4">
                             <div class="miembro d-flex aling-items-start">
@@ -149,7 +151,7 @@
                                     <img src="media/team1.png" class="img-fluid rounded-circle" alt="miembro del equipo">
                                 </div>
                                 <div class="miembro-info">
-                                    <h4>Nombre</h4>
+                                    <h4>Julian</h4>
                                     <span>Oficio</span>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, placeat.</p>
                                 
@@ -167,7 +169,7 @@
                                     <img src="media/team2.png" class="img-fluid rounded-circle" alt="miembro del equipo">
                                 </div>
                                 <div class="miembro-info">
-                                    <h4>Nombre</h4>
+                                    <h4>Ignacio</h4>
                                     <span>Oficio</span>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, placeat.</p>
                                 
@@ -185,7 +187,7 @@
                                     <img src="media/team3.png" class="img-fluid rounded-circle" alt="miembro del equipo">
                                 </div>
                                 <div class="miembro-info">
-                                    <h4>Nombre</h4>
+                                    <h4>Ailen</h4>
                                     <span>Oficio</span>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, placeat.</p>
                                 
@@ -203,7 +205,7 @@
                                     <img src="media/team4.jpg" class="img-fluid rounded-circle" alt="miembro del equipo">
                                 </div>
                                 <div class="miembro-info">
-                                    <h4>Nombre</h4>
+                                    <h4>Claudia</h4>
                                     <span>Oficio</span>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, placeat.</p>
                                 
@@ -220,16 +222,16 @@
         </section>
 
         <section id="clientes">
-            <div class="container text-center pt-5">
-                <h2>Nuestros Clientes</h2>
+            <div class="container text-center pt-5 titulo-clientes">
+                <p>Nuestros Clientes</p>
             </div>
-            <div class="container container-clientes text-center">
+            <div class="container container-clientes text-center pb-5">
                 <div class="row row-clientes">
-                    <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="col-sm-12 col-md-12 col-lg-4 d-flex flex-column">
                         <div class="card card-clientes mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                               <div class="col-md-4">
-                                <img src="media/perro-random.jpeg" class="img-fluid rounded-circle ms-5 imagen-cliente" alt="cliente">
+                                <img src="media/perro-random.jpeg" class="img-fluid rounded-circle imagen-cliente" alt="cliente">
                               </div>
                               <div class="col-md-8">
                                 <div class="card-body">
@@ -249,7 +251,7 @@
                         <div class="card card-clientes mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                               <div class="col-md-4">
-                                <img src="media/perro-random.jpeg" class="img-fluid rounded-circle ms-5 imagen-cliente" alt="cliente">
+                                <img src="media/perro-random.jpeg" class="img-fluid rounded-circle imagen-cliente" alt="cliente">
                               </div>
                               <div class="col-md-8">
                                 <div class="card-body">
@@ -269,7 +271,7 @@
                         <div class="card card-clientes mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                               <div class="col-md-4">
-                                <img src="media/perro-random.jpeg" class="img-fluid rounded-circle ms-5 imagen-cliente" alt="cliente">
+                                <img src="media/perro-random.jpeg" class="img-fluid rounded-circle imagen-cliente" alt="cliente">
                               </div>
                               <div class="col-md-8">
                                 <div class="card-body">
@@ -291,8 +293,8 @@
 
         <section id="contact">
             <div class="container-fluid mb-5">
-                <div class="section-header">
-                    <h2 class="text-center">CONTACTANOS</h2>
+                <div class="section-header titulo-contactanos">
+                    <p>Contactanos</p>
                 </div>
             </div>
 
@@ -307,7 +309,7 @@
                         
                         <div class="container container-direccion d-flex">
                             <i class="fa-solid fa-location-dot"></i>
-                            <p>Juncal 29, Tapiales, Buenos Aires</p>
+                            <p>Juncal 29, Tapiales</p>
                         </div>
                         <div class="container container-mail d-flex">
                             <i class="fa-solid fa-envelope"></i>
@@ -325,7 +327,7 @@
                             <div class="container-fluid container-nombre">
                                 <input type="text" name="name" class="form-control rounded-3" placeholder="Tu nombre">
                             </div>
-                            <div class="container-fluid container-mail">
+                            <div class="container-fluid container-mail-texto">
                                 <input type="text" name="email" class="form-control rounded-3" placeholder="Tu email">
                             </div>
                         </div>
@@ -338,7 +340,7 @@
                             <textarea name="mensaje" class="form-control rounded-3" placeholder="Mensaje" cols="30" rows="5"></textarea>
                         </div>
 
-                        <div class="container container-boton text-center mt-5">
+                        <div class="container container-boton text-center mt-4">
                             <button type="submit" title="Enviar" class="rounded-3">Enviar</button>
                         </div>
                     </div>
@@ -359,6 +361,8 @@
                     <h3>Redes</h3>
                     <a href="">
                         <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
                     </a>
                 </div>
             </div>
@@ -375,5 +379,8 @@
 
     <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
 
 </body>
