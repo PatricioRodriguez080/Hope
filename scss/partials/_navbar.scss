@@ -1,6 +1,13 @@
 nav{
     background-color: #795548;
     color: aliceblue;
+
+    .navbar-brand{
+        &:hover{
+            @include boton-agrandamiento();
+        }
+    }
+
     .nav-item a{
         color: aliceblue;
     }

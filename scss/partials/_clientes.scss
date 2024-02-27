@@ -1,12 +1,25 @@
 #clientes{
     background-color: #795548;
 }
+
 .titulo-clientes{
     @include titulo();
 }
+
 .card-clientes{
-    padding: 20px 0px;
+    min-height: 354px;
+    justify-content: center;
+    img{
+        min-width: 100px;
+    }
 }
+
+.col-imagen-cliente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .imagen-cliente{
     margin-left: 30px;
 }

@@ -5,6 +5,9 @@ footer{
 .col-redes{
     a{
         color: white;
+        text-decoration: none;
+        margin-right: 8px;
+        font-size: 1.5rem;
         &:hover{
             transition: all 300ms;
             color: grey;
