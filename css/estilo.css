@@ -125,11 +125,10 @@ nav .dropdown-menu {
 }
 
 .team .miembro {
-  position: relative;
   padding: 30px;
   box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  background: rgb(0, 134, 127);
+  background: blue;
 }
 .team .miembro h4 {
   font-weight: 700;
@@ -159,7 +158,8 @@ nav .dropdown-menu {
   font-size: 14px;
 }
 .team .miembro .imagen-miembro {
-  width: 180px;
+  min-width: 130px;
+  max-width: 130px;
 }
 .team .miembro .miembro-info {
   padding-left: 30px;
