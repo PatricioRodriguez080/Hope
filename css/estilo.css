@@ -31,29 +31,76 @@ nav .dropdown-menu {
 }
 
 .presentacion {
+  position: relative;
+  height: 60vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  height: 70vh;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.video-container video {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.491);
+  z-index: -1;
+}
+
+.contenido {
   color: white;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/maderitas.jpg);
-  background-size: 60vh;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
 }
-.presentacion .presentacion h1 {
-  font-size: 10vh;
+
+.custom-shape-divider-bottom-1709134105 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
-.presentacion .presentacion h2 {
-  font-size: 4vh;
+
+.custom-shape-divider-bottom-1709134105 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 126px;
 }
-.presentacion .presentacion h3 {
-  font-size: 2vh;
+
+.custom-shape-divider-bottom-1709134105 .shape-fill {
+  fill: #795548;
 }
 
 .grid-container-servicios {
   display: grid;
   grid-template-areas: "header header" "texto1 imagen1" "imagen2 texto2";
   grid-template-columns: 50% 50%;
+  background: rgb(121, 85, 72);
+  background: linear-gradient(180deg, rgb(121, 85, 72) 0%, rgb(163, 118, 102) 50%, rgb(186, 152, 140) 100%);
 }
 
 .container-parrafo-general {

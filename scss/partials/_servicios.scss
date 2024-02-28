@@ -5,6 +5,8 @@
         "texto1 imagen1"
         "imagen2 texto2";
     grid-template-columns: 50% 50%;
+    background: rgb(121,85,72);
+    background: linear-gradient(180deg, rgba(121,85,72,1) 0%, rgba(163,118,102,1) 50%, rgba(186,152,140,1) 100%);
 }
 .container-parrafo-general{
     display: flex;
