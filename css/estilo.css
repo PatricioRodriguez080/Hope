@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  position: relative;
+}
+
 nav {
   background-color: #795548;
   color: aliceblue;
@@ -351,6 +355,7 @@ nav .dropdown-menu {
 }
 
 footer {
+  position: absolute;
   background-color: #6c4a3e;
   color: white;
 }
@@ -529,7 +534,8 @@ footer {
 }
 .container-404 {
   height: 60vh;
-  padding: 60px 0px;
+  padding: 80px 0px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
