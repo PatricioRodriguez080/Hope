@@ -100,12 +100,15 @@ nav .dropdown-menu {
   fill: #795548;
 }
 
+.gradient {
+  background: rgb(121, 85, 72);
+  background: linear-gradient(180deg, rgb(121, 85, 72) 0%, rgb(163, 118, 102) 25%, rgb(186, 152, 140) 50%, rgb(209, 187, 179) 75%, rgb(232, 221, 217) 100%);
+}
+
 .grid-container-servicios {
   display: grid;
   grid-template-areas: "header header" "texto1 imagen1" "imagen2 texto2";
   grid-template-columns: 50% 50%;
-  background: rgb(121, 85, 72);
-  background: linear-gradient(180deg, rgb(121, 85, 72) 0%, rgb(163, 118, 102) 50%, rgb(186, 152, 140) 100%);
 }
 
 .container-parrafo-general {
@@ -143,9 +146,8 @@ nav .dropdown-menu {
 }
 
 .container-fluid-productos {
-  background-color: #795548;
   padding-top: 40px;
-  color: white;
+  color: black;
 }
 
 .cajas {
