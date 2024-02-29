@@ -178,6 +178,11 @@ nav .dropdown-menu {
   font-size: 3rem;
 }
 
+#equipo {
+  position: relative;
+  background-color: #795548;
+}
+
 .team .miembro {
   padding: 30px;
   box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.1);
@@ -251,6 +256,26 @@ nav .dropdown-menu {
   text-align: center;
   color: greenyellow;
   font-size: 3rem;
+}
+
+/* wave */
+.custom-shape-divider-top-1709233706 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1709233706 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 200px;
+}
+
+.custom-shape-divider-top-1709233706 .shape-fill {
+  fill: #E8DDD9;
 }
 
 #clientes {
