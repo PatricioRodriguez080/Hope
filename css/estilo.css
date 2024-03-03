@@ -439,8 +439,9 @@ footer {
   font-size: 30px;
 }
 
-body {
-  background-color: #AB8273;
+.body-cafe {
+  background-image: url(/media/fondo-cafe.jpeg);
+  background-size: cover;
 }
 
 .titulo-cafe {
@@ -460,6 +461,12 @@ body {
 
 .card-img-top {
   padding: 20px;
+}
+
+.body-masas {
+  background-image: url(/media/fondo-masas.jpeg);
+  background-size: cover;
+  background-position: -40px 60px;
 }
 
 .container-cards img {
