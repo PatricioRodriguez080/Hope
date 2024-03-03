@@ -1,5 +1,5 @@
 nav{
-    background-color: #795548;
+    background-color: #66483D;
     color: aliceblue;
 
     .navbar-brand{
@@ -10,15 +10,18 @@ nav{
 
     .nav-item a{
         color: aliceblue;
+        &:hover{
+            color: red;
+        }
     }
     .contactanos{
-        background-color: coral;
+        background-color: #805A4D;
         &:hover{
             @include boton-agrandamiento();
         }
     }
     .sidebar{
-        background-color: #AB8273;
+        background-color: #66483D;
     }
     .dropdown-menu{
         background-color: #A37666;

@@ -1,15 +1,18 @@
 #contact{
-    background-color: grey
+    background-image: url(/media/fondo-section-contacto.jpg);
+    padding-bottom: 35px;
 }
 .titulo-contactanos{
-    @include titulo();
+    color: white;
+    text-align: center;
 }
 .container-boton{
     button{
         min-height: 40px;
         min-width: 80px;
-        background-color: $marron-oscuro;
+        background-color: #AB8273;
         color: white;
+        border: 0;
         &:hover{
             @include boton-agrandamiento();
         }
@@ -18,6 +21,7 @@
 
 .container-informaciones{
     margin-bottom: 20px;
+    color: white;
 }
 
 .container-direccion{
@@ -63,4 +67,23 @@
 .container-mail-texto{
     align-items: center;
     margin: 5px 0px;
+}
+
+.custom-shape-divider-top-1709495360 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1709495360 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1709495360 .shape-fill {
+    fill: #795548;
 }
