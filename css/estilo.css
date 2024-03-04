@@ -318,7 +318,7 @@ nav .dropdown-menu {
 }
 
 #contact {
-  background-image: url(/media/fondo-section-contacto.jpg);
+  background-image: url(../media/fondo-section-contacto.jpg);
   padding-bottom: 35px;
 }
 
@@ -446,7 +446,7 @@ footer {
 }
 
 .body-cafe {
-  background-image: url(/media/fondo-cafe.jpeg);
+  background-image: url(../media/fondo-cafe.jpeg);
   background-size: cover;
 }
 
@@ -455,7 +455,7 @@ footer {
 }
 
 .body-masas {
-  background-image: url(/media/fondo-masas.jpeg);
+  background-image: url(../media/fondo-masas.jpeg);
   background-size: cover;
   background-position: -40px 60px;
 }
@@ -469,12 +469,12 @@ footer {
 }
 
 .body-tortas {
-  background-image: url(/media/fondo-tortas.png);
+  background-image: url(../media/fondo-tortas.png);
   background-size: cover;
 }
 
 .body-salado {
-  background-image: url(/media/fondo-salado.jpeg);
+  background-image: url(../media/fondo-salado.jpeg);
   background-size: cover;
 }
 
