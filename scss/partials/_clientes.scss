@@ -7,6 +7,7 @@
 }
 
 .card-clientes{
+    @include cards-hover();
     min-height: 354px;
     background: rgba(255, 255, 255, 0.450);
     justify-content: center;

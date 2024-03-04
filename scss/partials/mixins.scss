@@ -1,10 +1,28 @@
-@mixin titulo(){
-    text-align: center;
-    color: greenyellow;
-    font-size: 3rem;
-}
-
 @mixin boton-agrandamiento(){
     transition: all 300ms;
     transform: scale(1.15);
+}
+
+@mixin cards-carta-virtual(){
+    border-radius: 30px;
+    margin-top: 20px;
+    &:hover{
+        background-color: white;
+        transition: all 300ms;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    img{
+        padding: 20px;
+        border-radius: 30px;
+    }
+}
+
+@mixin cards-hover(){
+    &:hover{
+        background-color: white;
+        transition: all 300ms;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
 }
