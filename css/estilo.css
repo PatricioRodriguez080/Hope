@@ -447,7 +447,7 @@ footer {
 
 .body-cafe {
   background-image: url(../media/fondo-cafe.jpeg);
-  background-size: cover;
+  background-size: contain;
 }
 
 .titulo-cafe {
@@ -456,7 +456,7 @@ footer {
 
 .body-masas {
   background-image: url(../media/fondo-masas.jpeg);
-  background-size: cover;
+  background-size: contain;
   background-position: -40px 60px;
 }
 
@@ -470,7 +470,7 @@ footer {
 
 .body-tortas {
   background-image: url(../media/fondo-tortas.png);
-  background-size: cover;
+  background-size: contain;
 }
 
 .body-salado {
