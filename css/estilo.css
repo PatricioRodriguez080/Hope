@@ -475,7 +475,7 @@ footer {
 
 .body-salado {
   background-image: url(../media/fondo-salado.jpeg);
-  background-size: cover;
+  background-size: contain;
 }
 
 .titulo-salado {
