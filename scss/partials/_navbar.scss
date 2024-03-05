@@ -1,6 +1,6 @@
 nav{
     background-color: #66483D;
-    color: aliceblue;
+    color: white;
 
     .navbar-brand{
         &:hover{
@@ -9,7 +9,7 @@ nav{
     }
 
     .nav-item a{
-        color: aliceblue;
+        color: white;
         &:hover{
             color: red;
         }
