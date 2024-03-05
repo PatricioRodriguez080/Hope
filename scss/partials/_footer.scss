@@ -1,6 +1,6 @@
 footer{
     position: absolute;
-    background-color: #66483D;
+    background-color: $marron-oscuro1;
     color: white;
 }
 .col-redes{
@@ -11,7 +11,7 @@ footer{
         font-size: 1.5rem;
         &:hover{
             transition: all 300ms;
-            color: #AB8273;
+            color: $marron-efecto-hover;
         }
     }
 }

@@ -10,7 +10,7 @@
     button{
         min-height: 40px;
         min-width: 80px;
-        background-color: #AB8273;
+        background-color: $marron-efecto-hover;
         color: white;
         border: 0;
         &:hover{
@@ -85,5 +85,5 @@
 }
 
 .custom-shape-divider-top-1709495360 .shape-fill {
-    fill: #795548;
+    fill: $marron-oscuro2;
 }

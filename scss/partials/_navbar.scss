@@ -1,5 +1,5 @@
 nav{
-    background-color: #66483D;
+    background-color: $marron-oscuro1;
     color: white;
 
     .navbar-brand{
@@ -15,15 +15,15 @@ nav{
         }
     }
     .contactanos{
-        background-color: #805A4D;
+        background-color: $marron-botones-navbar;
         &:hover{
             @include boton-agrandamiento();
         }
     }
     .sidebar{
-        background-color: #66483D;
+        background-color: $marron-oscuro1;
     }
     .dropdown-menu{
-        background-color: #A37666;
+        background-color: $marron-clarito1;
     }
 }

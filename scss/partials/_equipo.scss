@@ -1,6 +1,6 @@
 #equipo{
     position: relative;
-    background-color: $marron-oscuro;
+    background-color: $marron-oscuro2;
 }
 
 .team .miembro{
@@ -59,7 +59,7 @@
                 font-size: 16px;
                 margin: 0 2px;
                 &:hover{
-                    color: #AB8273;
+                    color: $marron-efecto-hover;
                 }
             }
         }
