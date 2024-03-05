@@ -1,3 +1,11 @@
+.container-cards{
+    margin-bottom: 40px
+}
+
+.card-title-carta-virtual{
+    text-align: center;
+}
+
 .card-carta-virtual{
     @include cards-carta-virtual();
     background: rgba(255, 255, 255, 0.450);

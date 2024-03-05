@@ -482,7 +482,16 @@ footer {
   color: white;
 }
 
+.container-cards {
+  margin-bottom: 40px;
+}
+
+.card-title-carta-virtual {
+  text-align: center;
+}
+
 .card-carta-virtual {
+  min-height: 525px;
   border-radius: 30px;
   margin-top: 20px;
   background: rgba(255, 255, 255, 0.45);
@@ -496,6 +505,9 @@ footer {
 .card-carta-virtual img {
   padding: 20px;
   border-radius: 30px;
+}
+.card-carta-virtual h5 {
+  text-align: center;
 }
 
 .container-cards img {
@@ -629,7 +641,7 @@ footer {
   .col-cafe {
     margin: 10px 0px;
   }
-  .col-bebidas {
+  .col-salado {
     margin: 10px 0px;
   }
   .col-tortas {

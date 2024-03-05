@@ -4,6 +4,7 @@
 }
 
 @mixin cards-carta-virtual(){
+    min-height: 525px;
     border-radius: 30px;
     margin-top: 20px;
     &:hover{
@@ -15,6 +16,9 @@
     img{
         padding: 20px;
         border-radius: 30px;
+    }
+    h5{
+        text-align: center;
     }
 }
 
