@@ -41,7 +41,7 @@ nav .nav-item a {
   color: white;
 }
 nav .nav-item a:hover {
-  color: red;
+  color: gray;
 }
 nav .contactanos {
   background-color: #805A4D;
