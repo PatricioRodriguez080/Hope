@@ -41,7 +41,7 @@ nav .nav-item a {
   color: white;
 }
 nav .nav-item a:hover {
-  color: gray;
+  color: black;
 }
 nav .contactanos {
   background-color: #805A4D;
@@ -482,7 +482,6 @@ footer {
 .body-masas {
   background-image: url(../media/fondo-masas.jpeg);
   background-size: contain;
-  background-position: -40px 60px;
 }
 
 .titulo-masas {
