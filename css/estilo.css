@@ -479,6 +479,11 @@ footer {
   color: white;
 }
 
+.col-cafe {
+  display: flex;
+  justify-content: center;
+}
+
 .body-masas {
   background-image: url(../media/fondo-masas.jpeg);
   background-size: contain;
@@ -486,6 +491,11 @@ footer {
 
 .titulo-masas {
   color: white;
+}
+
+.col-masas {
+  display: flex;
+  justify-content: center;
 }
 
 .titulo-tortas {
@@ -497,6 +507,11 @@ footer {
   background-size: contain;
 }
 
+.col-tortas {
+  display: flex;
+  justify-content: center;
+}
+
 .body-salado {
   background-image: url(../media/fondo-salado.jpeg);
   background-size: contain;
@@ -504,6 +519,11 @@ footer {
 
 .titulo-salado {
   color: white;
+}
+
+.col-salado {
+  display: flex;
+  justify-content: center;
 }
 
 .container-cards {

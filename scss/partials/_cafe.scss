@@ -2,6 +2,12 @@
     background-image: url(../media/fondo-cafe.jpeg);
     background-size: contain;
 }
+
 .titulo-cafe{
     color: white;
+}
+
+.col-cafe{
+    display: flex;
+    justify-content: center;
 }
