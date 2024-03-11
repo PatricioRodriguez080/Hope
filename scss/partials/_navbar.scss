@@ -1,6 +1,5 @@
-nav{
+.navbar{
     background-color: $marron-oscuro1;
-    color: white;
 
     .navbar-brand{
         &:hover{
@@ -19,9 +18,6 @@ nav{
         &:hover{
             @include boton-agrandamiento();
         }
-    }
-    .sidebar{
-        background-color: $marron-oscuro1;
     }
     .dropdown-menu{
         background-color: $marron-clarito1;

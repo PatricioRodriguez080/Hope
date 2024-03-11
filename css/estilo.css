@@ -29,31 +29,27 @@ h3 {
   font-style: normal;
 }
 
-nav {
+.navbar {
   background-color: #66483D;
-  color: white;
 }
-nav .navbar-brand:hover {
+.navbar .navbar-brand:hover {
   transition: all 300ms;
   transform: scale(1.15);
 }
-nav .nav-item a {
+.navbar .nav-item a {
   color: white;
 }
-nav .nav-item a:hover {
+.navbar .nav-item a:hover {
   color: black;
 }
-nav .contactanos {
+.navbar .contactanos {
   background-color: #805A4D;
 }
-nav .contactanos:hover {
+.navbar .contactanos:hover {
   transition: all 300ms;
   transform: scale(1.15);
 }
-nav .sidebar {
-  background-color: #66483D;
-}
-nav .dropdown-menu {
+.navbar .dropdown-menu {
   background-color: #A37666;
 }
 
