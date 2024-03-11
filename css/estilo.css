@@ -32,9 +32,16 @@ h3 {
 .navbar {
   background-color: #66483D;
 }
+.navbar .navbar-nav {
+  margin: auto;
+}
 .navbar .navbar-brand:hover {
   transition: all 300ms;
   transform: scale(1.15);
+}
+.navbar .nav-item {
+  font-size: 19px;
+  margin-left: 8px;
 }
 .navbar .nav-item a {
   color: white;

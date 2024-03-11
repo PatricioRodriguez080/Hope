@@ -1,16 +1,24 @@
 .navbar{
     background-color: $marron-oscuro1;
 
+    .navbar-nav{
+        margin: auto;
+    }
+
     .navbar-brand{
         &:hover{
             @include boton-agrandamiento();
         }
     }
 
-    .nav-item a{
-        color: white;
-        &:hover{
-            color: black;
+    .nav-item{
+        font-size: 19px;
+        margin-left: 8px;
+        a{
+            color: white;
+            &:hover{
+                color: black;
+            }
         }
     }
     .contactanos{
