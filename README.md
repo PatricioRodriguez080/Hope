@@ -10,5 +10,5 @@
 
 <div>
   <h2>Imagenes sobre Hope</h2>
-  ![pagina-principal-hope](https://github.com/PatricioRodriguez080/Hope/assets/159083683/56b6074a-54b1-4837-b42d-ecad50b75dd6)
+  [![pagina-principal-hope.jpg](https://i.postimg.cc/1X5CNgfH/pagina-principal-hope.jpg)](https://postimg.cc/N9S73j89)
 </div>
