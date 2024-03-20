@@ -5,7 +5,7 @@
 
 <div>
   <h2>Descripción del Proyecto</h2>
-  <p>Este proyecto es el resultado de mi trabajo durante el curso de CoderHouse. Pude crear un sitio web utilizando HTML, CSS, BOOTSTRAP y SASS, haciendo uso de las buenas practicas del desarrollo. Este proyecto es una landing page inspirado en una panaderia cuyo nombre es Hope.</p>
+  <p>Este proyecto es el resultado de mi trabajo durante el curso de CoderHouse. Pude crear un sitio web utilizando HTML, CSS, BOOTSTRAP y SASS, haciendo uso de las buenas prácticas del desarrollo. Este proyecto es una landing page inspirado en una panadería cuyo nombre es Hope.</p>
 </div>
 
 <div>
