@@ -17,5 +17,5 @@
 
 <div>
   <h2>Donde puedo ver la pagina web?</h2>
-  <p>Podes encontrarla en: https://patriciorodriguez080.github.io/Hope/</p>
+  <p>Podés encontrarla en: https://patriciorodriguez080.github.io/Hope/</p>
 </div>
