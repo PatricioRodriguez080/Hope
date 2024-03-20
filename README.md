@@ -10,5 +10,5 @@
 
 <div>
   <h2>Imagenes sobre Hope</h2>
-  ![paginaPrincipalHope.jpg](https://i.postimg.cc/NLqDQskG/pagina-Principal-Hope.jpg)(https://postimg.cc/m1jCwGnK)
+  <img src="./media/imagenReadme.jpg" alt="imagen de la pagina web">
 </div>
