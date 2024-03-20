@@ -11,4 +11,6 @@
 <div>
   <h2>Imagenes sobre Hope</h2>
   <img src="./media/imagenReadme.jpg" alt="imagen de la pagina web">
+  <img src="./media/imagenReadme2.jpg" alt="imagen de la pagina web">
+  <img src="./media/imagenReadme3.jpg" alt="imagen de la pagina web">
 </div>
